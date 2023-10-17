@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background:rgb(144, 144, 144);
+}
+
+.fon {
+    background-image: url(/images/fon.jpg);
+    margin: 0 auto;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todolist {
+    border-radius: 10px;
+    height: 80%;
+    width: 700px;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.todolistcontrol {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.todolistinput {
+    border: none;
+    border-radius: 15px 0 0 15px;
+    padding: 10px;
+}
+
+.todolistbutton {
+    background: rgb(78, 78, 78);
+    border-radius: 0 15px 15px 0;
+    border: none;
+}
+
+.todolistfield {
+    background: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.todolistitem {
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+
+.todolistitemdone {
+    background: blue;
+}
+
+.itemtext {
+    flex-grow: 1;
+}
+
+.del {
+    height: 45px;
+}
+
